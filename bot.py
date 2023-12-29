@@ -24,7 +24,7 @@ thread_timestamps = {}
 # Dictionary to store user IDs from workflow messages
 workflow_user_ids = {}
  
-client.chat_postMessage(channel='#fa-spectra-support', text="hello world")
+client.chat_postMessage(channel='your_channel', text="hello world")
 # Function to send a reminder message
 def send_reminder(channel_id, thread_ts, user_id):
     time.sleep(5)  # 5 minutes delay
